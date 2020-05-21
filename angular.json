@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "yiado": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "yiado"
+    }
+  },
+  "defaultProject": "yiado",
+  "cli": {
+    "analytics": "65f351bc-af56-4fe1-810b-a996e06b9752"
+  }
 }
