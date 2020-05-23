@@ -237,7 +237,7 @@ a:focus {
   margin-top: 0;
   background: none;
   position: absolute;
-  padding: 8px 10px;
+  padding: 8px 1110px;
   right: 10px;
   top: 10px;
   background: rgba(0, 0, 0, 0.6);
@@ -553,7 +553,7 @@ a:focus {
 
 /* ======= Testimonials Section ======= */
 .testimonials-section {
-  background: #ffc107 url("../images/map.png") no-repeat center center;
+  background: #f3d344 url("../images/map.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -651,19 +651,25 @@ a:focus {
 
 /* ======= Features Section ======= */
 .features-section {
+  background: #f3d344 url("../images/map.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
 .features-section .section-title {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-size: 36px;
   font-weight: 300;
+  color: #fff;
 }
 
 .features-section .intro {
-  color: #a2a6af;
+  color: #fff;
   font-size: 16px;
   max-width: 760px;
   margin: 0 auto;
