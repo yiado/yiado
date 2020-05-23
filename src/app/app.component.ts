@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+declare var Parallax;
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent  implements OnInit {
   //---------------------------------------------------------------------
   title = 'Yiado';
   quien = '   ¿?';
@@ -19,7 +20,10 @@ export class AppComponent {
   aboutConcept = 'Concepto';
   aboutDesing = 'Diseño';
   aboutDevelop = 'Desarrollo';
+  
 
-
-
+  ngOnInit(){
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+  }
 }
