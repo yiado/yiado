@@ -117,18 +117,18 @@
                                     </div>
                                     <div class="process-text-block">
                                         <h4><a href="#">{{ aboutIdea }}</a></h4>
-                                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
+                                        <p>{{ aboutIdeaDescrip }}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 block process-block">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-cloud-download feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a href="#"><i class="fa fa-pencil-square-o feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
                                         <h4><a href="#">{{ aboutConcept }}</a></h4>
-                                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
+                                        <p>{{ aboutConceptDescrip }}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 block process-block">
@@ -139,18 +139,18 @@
                                     </div>
                                     <div class="process-text-block">
                                         <h4><a href="#">{{ aboutDesing }}</a></h4>
-                                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
+                                        <p>{{ aboutDesingDescrip }}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 block process-block lastchild">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-cog feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a href="#"><i class="fa fa-cogs feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
                                         <h4><a href="#">{{ aboutDevelop }}</a></h4>
-                                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
+                                        <p>{{ aboutDevelopDescrip }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -158,29 +158,33 @@
                 </section>
         </div><!--//items-wrapper-->
     </div><!--//container-->
-</div><!--//about-section-->
-    
+</div><!--//about-section-->  
 <div id="features" class="features-section">
     <div class="container text-center">
-        <h2 class="section-title">Why Use AppKit Landing?</h2>
-        <p class="intro">Appkit Landing uses modern front-end technologies and is packed with useful components and widgets to speed up your development</p>
+        <h2 class="section-title">{{ featuresTitle }}</h2>
+        <p class="intro">{{ featuresDescrip }}</p>
         <ul class="technologies list-inline">
             <li class="list-inline-item"><img src="assets/images/logo-html5.svg" alt="HTML5"></li>
             <li class="list-inline-item"><img src="assets/images/logo-css3.svg" alt="CSS3"></li>
             <li class="list-inline-item"><img src="assets/images/logo-bootstrap.svg" alt="Bootstrap"></li>
             <li class="list-inline-item"><img src="assets/images/logo-sass.svg" alt="Sass"></li>
             <li class="list-inline-item"><img src="assets/images/logo-jquery.svg" alt="jQuery"></li>
-        </ul>
-                    
+            <li class="list-inline-item"><img src="assets/images/logo-angular.svg" width="53px" height="60px" lt="jQuery"></li>
+            <li class="list-inline-item"><img src="assets/images/logo-laravel.svg" width="53px" height="60px" lt="jQuery"></li>
+            <li class="list-inline-item"><img src="assets/images/logo-js.svg" width="53px" height="60px" lt="jQuery"></li>
+            <li class="list-inline-item"><img src="assets/images/logo-python.png" width="53px" height="60px" lt="jQuery"></li>
+            <li class="list-inline-item"><img src="assets/images/logo-docker.svg" width="53px" height="60px" lt="jQuery"></li>
+            <li class="list-inline-item"><img src="assets/images/logo-aws.png   " width="80px" height="60px" lt="jQuery"></li>
+        </ul>            
         <div class="items-wrapper row">
             <div class="item col-md-4 col-12">
                 <div class="item-inner">
                     <div class="figure-holder">
                         <img class="figure-image" src="assets/images/figure-1.png" alt="image">
                     </div><!--//figure-holder-->
-                    <h3 class="item-title">Benefit Lorem Ipsum</h3>
+                    <h3 class="item-title">{{ featuresDensing }}</h3>
                     <div class="item-desc">
-                        List one of your product's benefits here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                        {{ featuresDescripDescrip }}
                     </div><!--//item-desc-->
                 </div><!--//item-inner-->
             </div><!--//item-->
@@ -189,9 +193,9 @@
                     <div class="figure-holder">
                         <img class="figure-image" src="assets/images/figure-2.png" alt="image">
                     </div><!--//figure-holder-->
-                    <h3 class="item-title">Benefit Corporis</h3>
+                    <h3 class="item-title">{{ featuresDevelop }}</h3>
                     <div class="item-desc">
-                        List one of your product's benefits here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                       {{ featuresDevelopDescrip }} 
                     </div><!--//item-desc-->
                 </div><!--//item-inner-->
             </div><!--//item-->
@@ -200,9 +204,9 @@
                     <div class="figure-holder">
                         <img class="figure-image" src="assets/images/figure-3.png" alt="image">
                     </div><!--//figure-holder-->
-                    <h3 class="item-title">Benefit Imperdiet</h3>
+                    <h3 class="item-title">{{  featuresDigital }}</h3>
                     <div class="item-desc">
-                        List one of your product's benefits here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+                        {{ featuresDigitalDescrip }}
                     </div><!--//item-desc-->
                 </div><!--//item-inner-->
             </div><!--//item-->
