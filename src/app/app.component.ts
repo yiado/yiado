@@ -33,9 +33,15 @@ export class AppComponent  implements OnInit {
   featuresDevelopDescrip = 'Implementamos tecnologías emergentes desde la agilidad para generar resultados reales.';
   featuresDigital = 'Transformación digital Community Manager';
   featuresDigitalDescrip = 'Ayudamos a definir la estrategia para transformar tu negocio y alcanzar la madurez digital.';
-
-
-  //---------------------------------------------------------------------- 
+  //----------------------------------------------------------------------
+  team = "Nuestro Equipo"; 
+  teamDescrip = "Somos un equipo multidisciplinario emprendedor, amante de la tecnología, que esta preparado para asumir nuevos desafios."
+  devLram = "Liliana Suarez";
+  devDensing = "Designer - Community Manager";
+  devDorz = "Douglas Ramirez";
+  devFront = "Front-end Developer   ";
+  devYsmm = "Ysrael Mendez";
+  devBack = "Back-end Developer     ";
   ngOnInit(){ 
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
