@@ -332,11 +332,15 @@ a:focus {
 
 /* ======= Hero Section ======= */
 .hero-section {
-  min-height: 560px;
+  padding-top: 50px;
   background: #494d55;
-  position: relative;
+  
+}
+.scene {
+  margin-left: 20%;
 }
 
+/*
 .hero-section .figure-holder-wrapper {
   position: absolute;
   left: 0;
@@ -423,7 +427,7 @@ a:focus {
   background: linear-gradient(to right, #c5ba25 0%, #000708 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5ba25', endColorstr='#000708', GradientType=1 );
 }
-*/
+
 .hero-carousel .carousel-inner .heading {
   font-size: 30px;
   line-height: 1.4;
@@ -439,6 +443,7 @@ a:focus {
 .hero-carousel .carousel-inner .intro + .btn {
   margin-top: 15px;
 }
+*/
 
 /* ======= About Section ======= */
 .about-section {
@@ -973,10 +978,11 @@ a:focus {
 
 /* ======= Contact Section ======= */
 .contact-section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   background: #494d55;
   color: #fff;
+  height: 350px;
 }
 
 .contact-section .section-title {
@@ -991,6 +997,23 @@ a:focus {
   max-width: 600px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+.widget-title {
+  padding:0 0 1.2rem;
+  margin:0;
+  font-size: 21px;
+  line-height: 1;
+}
+.contact-widget .widget-title  {
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-size: 14px;
+  line-height: 1;
+  padding-bottom: 1rem;
+}
+.contact-widget .widget-title i {
+  font-size: 18px;
+  padding-right: 4px;
 }
 
 @media (max-width: 767.98px) {
@@ -1254,8 +1277,8 @@ body #process .process-block:hover .process-border {
 }
 .footer-social {
     display: block;
-    padding-top: 4rem;
-    margin-top: 4rem;
+    padding-top: 1.3rem;
+    margin-top: 1rem;
     border-top:1px solid #f3d344;
 }
 .footer-copy p,
@@ -1351,7 +1374,5 @@ a,
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 }
-
-
 
 
