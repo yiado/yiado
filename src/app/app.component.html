@@ -155,6 +155,7 @@
         </div><!--//items-wrapper-->
     </div><!--//container-->
 </div><!--//about-section-->  
+
 <div id="features" class="features-section">
     <div class="container text-center">
         <h2 class="section-title">{{ featuresTitle }}</h2>
@@ -270,124 +271,120 @@
         <div class="story">
             <p>{{ teamDescrip }}</p>
         </div>
-        <div class="members-wrapper row">
-            <div class="item col-md-4 col-12">
-                <div class="item-inner">
-                    <div class="profile mb-2">
-                        <img class="profile-image" src="assets/images/team-1.png" alt="Xiaoying Riley" />
-                    </div>
-                    <div class="member-content">
-                        <h3 class="member-name">{{ devLram }}</h3>
-                        <div class="member-title">{{ devDensing }}
-                        </div>
+        <div class="row">
+            <div class="col-12 owl-seci">
+                <div  class="owl-carousel owl-theme scren-owl">	
+                    <div class="item item-over ">
+                        <div class="item-bg item-bg-1">                        
+                            <div class="over-image">
+                                <span>{{devDorz}}</span>
+                            </div>
+                        </div><br>
                         <ul class="social list-inline">
+                            <!-- <li class="list-inline-item"><a class="github" href="http://twitter.com/Dorz_ram" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
+                            <li class="list-inline-item"><a class="github" href="https://github.com/Ramizdo" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a class="github" href="https://sourcerer.io/Ramizdo" target="_blank"><i class="fas fa-globe"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="item item-over">
+                        <div class="item-bg item-bg-2">
+                            <div class="over-image">
+                                <span>{{devLram}}</span>
+                            </div>
+                        </div><br>
+                        <ul class="social list-inline">
+                            <!-- <li class="list-inline-item"><a class="github" href="http://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
                             <li class="list-inline-item"><a class="github" href="https://github.com/Liyasupe" target="_blank"><i class="fab fa-github"></i></a></li>
                             <li class="list-inline-item"><a class="github" href="https://instagram.com/liyasupe/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                             <li class="list-inline-item"><a class="github" href="https://dribbble.com/Xiaoying" target="_blank"><i class="fab fa-dribbble"></i></a></li>
                         </ul>
-                    </div><!--//member-content-->
-                </div><!--//item-inner-->
-            </div><!--//item-->
-            <div class="item col-md-4 col-12">
-                <div class="item-inner">
-                    <div class="profile mb-2">
-                        <img class="profile-image" src="assets/images/team-2.png" alt="Tom Najdek" />
                     </div>
-                    <div class="member-content">
-                        <h3 class="member-name">{{ devDorz }}</h3>
-                        <div class="member-title">{{ devFront }}
-                        </div><br> 
-                        <ul class="social list-inline">
-                            <li class="list-inline-item"><a class="github" href="https://github.com/Ramizdo" target="_blank"><i class="fab fa-github"></i></a></li>
-                            <li class="list-inline-item"><a class="github" href="https://sourcerer.io/Ramizdo" target="_blank"><i class="fas fa-globe"></i></a></li>
-                        </ul>
-                    </div><!--//member-content-->
-                </div><!--//item-inner-->
-            </div><!--//item-->
-            <div class="item col-md-4 col-12">
-                <div class="item-inner">
-                    <div class="profile mb-2">
-                        <img class="profile-image" src="assets/images/team-2.png" alt="Tom Najdek" />
-                    </div>
-                    <div class="member-content">
-                        <h3 class="member-name">{{ devYsmm }}</h3>
-                        <div class="member-title">{{ devBack }}
+                    <div class="item item-over">
+                        <div class="item-bg item-bg-3">
+                            <div class="over-image">
+                                <span>{{devYsmm}}</span>
+                            </div>
                         </div><br>
                         <ul class="social list-inline">
-                            <li class="list-inline-item"><a class="github" href="https://twitter.com/YmendezzM" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <!-- <li class="list-inline-item"><a class="github" href="http://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
                             <li class="list-inline-item"><a class="github" href="https://github.com/YmendezM" target="_blank"><i class="fa fa-github"></i></a></li>
                             <li class="list-inline-item"><a class="github" href="https://sourcerer.io/ymendezm" target="_blank"><i class="fas fa-globe"></i></a></li>
                             <li class="list-inline-item"><a class="github" href="https://www.linkedin.com/in/ysrael-ivan-mendez-marciales-941b78168/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                         </ul>
-                    </div><!--//member-content-->
-                </div><!--//item-inner-->
-            </div><!--//item-->
-        </div><!--//members-wrapper-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+            <div class="members-wrapper row">
+                <div class="item col-md-4 col-12">
+                    <div class="item-inner">
+                        <div class="profile mb-2">
+                            <img class="profile-image" src="assets/images/team-1.png" alt="Xiaoying Riley" />
+                        </div>
+                        <div class="member-content">
+                            <h3 class="member-name">{{ devLram }}</h3>
+                            <div class="member-title">{{ devDensing }}
+                            </div>
+                            <ul class="social list-inline">
+                                <li class="list-inline-item"><a class="github" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a class="github" href="https://github.com/Liyasupe" target="_blank"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a class="github" href="https://instagram.com/liyasupe/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a class="github" href="https://dribbble.com/Xiaoying" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                            </ul>
+                        </div><!-//member-content->
+                    </div><!-//item-inner->
+                </div><!-//item->
+                <div class="item col-md-4 col-12">
+                    <div class="item-inner">
+                        <div class="profile mb-2">
+                            <img class="profile-image" src="assets/images/team-2.png" alt="Tom Najdek" /> 
+                        </div>
+                        <div class="member-content">
+                            <h3 class="member-name">{{ devDorz }}</h3>
+                            <div class="member-title">{{ devFront }}
+                            </div><br> 
+                            <ul class="social list-inline">
+                                <li class="list-inline-item"><a class="github" href="http://twitter.com/Dorz_ram" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a class="github" href="https://github.com/Ramizdo" target="_blank"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a class="github" href="https://sourcerer.io/Ramizdo" target="_blank"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div><!-//member-content->
+                    </div><!-//item-inner->
+                </div><!-//item->
+                <div class="item col-md-4 col-12">
+                    <div class="item-inner">
+                        <div class="profile mb-2">
+                            <img class="profile-image" src="assets/images/3.png" alt="Tom Najdek" />
+                        </div>
+                        <div class="member-content">
+                            <h3 class="member-name">{{ devYsmm }}</h3>
+                            <div class="member-title">{{ devBack }}
+                            </div><br>
+                            <ul class="social list-inline">
+                                <li class="list-inline-item"><a class="github" href="http://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a class="github" href="https://github.com/YmendezM" target="_blank"><i class="fa fa-github"></i></a></li>
+                                <li class="list-inline-item"><a class="github" href="https://sourcerer.io/ymendezm" target="_blank"><i class="fas fa-globe"></i></a></li>
+                                <li class="list-inline-item"><a class="github" href="https://www.linkedin.com/in/ysrael-ivan-mendez-marciales-941b78168/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div><!-//member-content->
+                    </div><!-//item-inner->
+                </div><!-//item->
+            </div><!-//members-wrapper
+        -->
+
     </div><!--//container-->
 </div><!--//team-section-->
     
-    <!--<div id="pricing" class="pricing-section">
-        <div class="container text-center">
-            <h2 class="section-title">Pricing</h2>
-            <div class="intro">AppKit Landing's future updates are 100% FREE for existing customers</div>
-            <div class="pricing-wrapper row">
-                <div class="item item-1 col-md-4 col-12">
-                    <div class="item-inner">
-                        <h3 class="item-heading">FREE<br><span class="item-heading-desc">(CC BY 3.0)</span></h3>
-                        <div class="price-figure">
-                            <span class="currency">$</span><span class="number">0</span>
-                        </div><--//price-figure->COMENTARIO
-                        <ul class="list-unstyled mb-3">
-	                        <li class="mb-2"><i class="fas fa-check"></i> Single installation</li>
-	                        <li class="mb-2"><i class="fas fa-check"></i> Multiple installations</li>
-                            <li class="mb-2"><i class="fas fa-times"></i> Use without attribution link</li>
-                        </ul>
-                        <div class="mb-3"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/" target="_blank">License Details</a></div>
-                        <a class="btn btn-cta" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/">Get it now</a>
-                        
-                    </div><--//item-inner->COMENTARIO
-                </div><--//item->COMENTARIO
-                <div class="item item-2 col-md-4 col-12">
-                    <div class="item-inner">
-                        <h3 class="item-heading">Single Application<br><span class="item-heading-desc">(Commercial License)</span></h3>
-                       
-                        <div class="price-figure">
-                            <span class="currency">$</span><span class="number">29</span>
-                        </div><--//price-figure->COMENTARIO
-                        <ul class="list-unstyled mb-3">
-	                        <li class="mb-2"><i class="fas fa-check"></i> Single installation</li>
-	                        <li class="mb-2"><i class="fas fa-times"></i> Multiple installations</li>
-	                        <li class="mb-2"><i class="fas fa-check"></i> Use without attribution link</li>
-                        </ul>
-                        <div class="mb-3"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/" target="_blank">License Details</a></div>
-                        <a class="btn btn-cta" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/">Get it now</a>
-                        
-                    </div><--//item-inner->COMENTARIO
-                </div><!-//item->COMENTARIO
-                
-                <div class="item item-3 col-md-4 col-12">
-                    <div class="item-inner">
-                        <h3 class="item-heading">Multiple Applications<br><span class="item-heading-desc">(Commercial License)</span></h3>
-                        <div class="price-figure">
-                            <span class="currency">$</span><span class="number">99</span>
-                        </div><!-//price-figure->COMENTARIO
-                        <ul class="list-unstyled mb-3">
-	                        <li class="mb-2"><i class="fas fa-check"></i> Single installation</li>
-	                        <li class="mb-2"><i class="fas fa-check"></i> Multiple installations</li>
-	                        <li class="mb-2"><i class="fas fa-check"></i> Use without attribution link</li>
-                        </ul>
-                        <div class="mb-3"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/" target="_blank">License Details</a></div>
-                        <a class="btn btn-cta" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/appkit-landing-free-bootstrap-theme-for-developers-and-startups/" target="_blank">Get it now</a>
-                        
-                    </div><!-//item-inner->COMENTARIO
-                </div><!-//item->COMENTARIO
-            </div><!-//pricing-wrapper->COMENTARIO
+<div id="pricing" class="pricing-section">
+    <div class="container text-center">
+        <h2 class="section-title">Pricing</h2>
+        <div class="intro">AppKit Landing's future updates are 100% FREE for existing customers</div>
             
-        </div><!-//container->COMENTARIO
-    </div><!-//pricing-section-> COMENTARIO
- FIN COMENTARIO
- -->
-
+    </div><!--//container-->
+</div><!--//pricing-->
+ 
 <div id="testimonials" class="testimonials-section">
     <div class="container">
         <h2 class="section-title text-center">Many Happy Customers</h2>
