@@ -23,7 +23,7 @@ export class AppComponent  implements OnInit {
   aboutDesing = 'Diseño';
   aboutDesingDescrip = 'Más que bocetos o dibujos, creamos comunicación visual, trazamos ideas en colores, procesos, indentificamos como impactar con creatividad.';
   aboutDevelop = 'Desarrollo';
-  aboutDevelopDescrip = "Materializamos la creatividad y abstracción un producto o proceso, llevamos a operacion ideas convertidas en oportunidades.";
+  aboutDevelopDescrip = "Materializamos la creatividad y abstracción de un producto o proceso, llevamos a operacion ideas convertidas en oportunidades.";
   //----------------------------------------------------------------------
   featuresTitle = 'Nuestros Servicios';
   featuresDescrip = 'Ofrecemos un completo espectro de servicios para ayudar a que las organizaciones funcionen mejor. Podemos combinar cualquiera de nuestros productos y servicios para crear un paquete que esté hecho justo a la medida para su negocio. Esto elimina la complejidad y el costo innecesario de llevarlo a donde quiere llegar, cualquiera que sea su punto de partida. ';
@@ -42,6 +42,19 @@ export class AppComponent  implements OnInit {
   devFront = "Front-end Developer   ";
   devYsmm = "Ysrael Mendez";
   devBack = "Back-end Developer     ";
+//-------------------------------------------------------------------------
+  footerTitle = "#YiaDo";
+  footerDescrip = "Si lo puedes #Imaginar, lo puedes #Programar."; 
+  footerDirec = "Direccion";
+  footerDirecDescrip = "Hugo Silva Endeiza 840, Antofagasta, Chile.";
+  footerTelef = "Telefono";
+  footerTelefDescrip1 = "(+56) 9 55174678";
+  footerTelefDescrip2 = "(+56) 9 53932764";
+  footerNetwork = "Contacto";
+  footerNetworkDecrip1 = "contacto@yiado.cl";
+  footerNetworkDecrip2 = "github.com/yiado";
+
+
   ngOnInit(){ 
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
