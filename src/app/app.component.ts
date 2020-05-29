@@ -7,6 +7,17 @@ declare var Parallax;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  implements OnInit {
+
+  //---------------------------------------------------------------------
+  headerYia = "Yia";
+  headerDo = "Do";
+  headerMenuMovil = "Toggle navigation";
+  headerAbout = " Nosotros";
+  headerFeatures = "Servicios";
+  headerPricing = "Cloud";
+  headerTeam = "Equipo";
+  headerTestimonials = "Testimonio";
+  headerContact = "Contacto";
   //---------------------------------------------------------------------
   title = 'Yiado';
   quien = '   ¿?';

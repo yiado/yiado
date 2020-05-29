@@ -4,23 +4,23 @@
         <h1 class="logo">
             <a class="scrollto" href="#hero">
                 <span class="logo-icon-wrapper"><img class="logo-icon" src="assets/images/yiado.png" alt="icon"></span>
-                <span class="text"> Yia<span class="highlight"> do</span></span></a>
+                <span class="text"> {{ headerYia }}<span class="highlight">{{ headerDo }}</span></span></a>
         </h1><!--//logo-->
         <nav class="main-nav navbar-expand-md float-right navbar-inverse" role="navigation">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
+                <span class="sr-only">{{ headerMenuMovil }}</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button><!--//nav-toggle-->
             <div id="navbar-collapse" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="active nav-link scrollto" href="#about">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#features">Caracter&iacute;sticas</a></li>                        
-                    <li class="nav-item"><a class="nav-link scrollto" href="#team">Equipo</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+                    <li class="nav-item"><a class="active nav-link scrollto" href="#about">{{ headerAbout }}</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#features">{{ headerFeatures }}</a></li>                        
+                    <li class="nav-item"><a class="nav-link scrollto" href="#pricing">{{ headerPricing }}</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#team">{{ headerTeam }}</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#testimonials">{{ headerTestimonials }}</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#contact">{{ headerContact }}</a></li>
                 </ul><!--//nav-->
             </div><!--//navabr-collapse-->
         </nav><!--//main-nav-->                     
@@ -177,7 +177,6 @@
             <li class="list-inline-item"><img src="assets/images/logo-js.svg" width="53px" height="60px" lt="jQuery"></li>
             <li class="list-inline-item"><img src="assets/images/logo-python.png" width="53px" height="60px" lt="jQuery"></li>
             <li class="list-inline-item"><img src="assets/images/logo-docker.svg" width="53px" height="60px" lt="jQuery"></li>
-            <li class="list-inline-item"><img src="assets/images/logo-aws.png   " width="80px" height="60px" lt="jQuery"></li>
         </ul>            
         <div class="items-wrapper row">
             <div class="item col-md-4 col-12">
@@ -188,7 +187,7 @@
                     <h3 class="item-title">{{ featuresDensing }}</h3>
                     <div class="item-desc">
                         {{ featuresDescripDescrip }}
-                    </div><!--//item-desc-->
+                    </div><br><!--//item-desc-->
                 </div><!--//item-inner-->
             </div><!--//item-->
             <div class="item col-md-4 col-12">
@@ -199,7 +198,7 @@
                     <h3 class="item-title">{{ featuresDevelop }}</h3>
                     <div class="item-desc">
                        {{ featuresDevelopDescrip }} 
-                    </div><!--//item-desc-->
+                    </div><br><!--//item-desc-->
                 </div><!--//item-inner-->
             </div><!--//item-->
             <div class="item col-md-4 col-12">
@@ -270,6 +269,14 @@
             
         </div><--//container->
     </div><--//features->-->
+
+<div id="pricing" class="pricing-section">
+    <div class="container text-center">
+        <h2 class="section-title">Pricing</h2>
+        <div class="intro">AppKit Landing's future updates are 100% FREE for existing customers</div>
+            
+    </div><!--//container-->
+</div><!--//pricing-->
     
 <div class="team-section" id="team">
     <div class="container text-center">
@@ -384,14 +391,6 @@
 
     </div><!--//container-->
 </div><!--//team-section-->
-    
-<div id="pricing" class="pricing-section">
-    <div class="container text-center">
-        <h2 class="section-title">Pricing</h2>
-        <div class="intro">AppKit Landing's future updates are 100% FREE for existing customers</div>
-            
-    </div><!--//container-->
-</div><!--//pricing-->
  
 <div id="testimonials" class="testimonials-section">
     <div class="container">
