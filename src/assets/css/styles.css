@@ -237,7 +237,7 @@ a:focus {
   margin-top: 0;
   background: none;
   position: absolute;
-  padding: 8px 1110px;
+  padding: 8px 10px;
   right: 10px;
   top: 10px;
   background: rgba(0, 0, 0, 0.6);
@@ -1392,7 +1392,7 @@ a,
 .over-image{
   z-index: 10;
   width: 100%;
-  position: absolute;
+  position: relative;
 }
 .over-image span{
 font-size:13px;
