@@ -24,7 +24,7 @@ export class AppComponent  implements OnInit {
   donde = '   ¿?';
   que = '   ¿?';
   //---------------------------------------------------------------------
-  aboutTitle = 'Cómo lo hacemos?';
+  aboutTitle = '¿Qué hacemos?';
   aboutText1 = 'En #Yiado pensamos que el desarrollo de software no solo debe ser escritura de codigo';
   aboutText2 = ' <!-- HOLA MUNDO --> nuestro cultura es el desarrollo de ideas.';  
   aboutIdea = 'Idea';
