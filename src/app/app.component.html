@@ -17,9 +17,9 @@
                 <ul class="nav navbar-nav">
                     <li class="nav-item"><a class="active nav-link scrollto" href="#about">{{ headerAbout }}</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#features">{{ headerFeatures }}</a></li>                        
-                    <li class="nav-item"><a class="nav-link scrollto" href="#pricing">{{ headerPricing }}</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#team">{{ headerTeam }}</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#cloud">{{ headerPricing }}</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#testimonials">{{ headerTestimonials }}</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#team">{{ headerTeam }}</a></li>       
                     <li class="nav-item"><a class="nav-link scrollto" href="#contact">{{ headerContact }}</a></li>
                 </ul><!--//nav-->
             </div><!--//navabr-collapse-->
@@ -114,7 +114,7 @@
                                 <div class="col-md-3 col-sm-6 block process-block">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-lightbulb-o feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a><i class="fa fa-lightbulb-o feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
@@ -125,7 +125,7 @@
                                 <div class="col-md-3 col-sm-6 block process-block">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-pencil-square-o feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a><i class="fa fa-pencil-square-o feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
@@ -136,7 +136,7 @@
                                 <div class="col-md-3 col-sm-6 block process-block">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-magic feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a><i class="fa fa-magic feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
@@ -147,7 +147,7 @@
                                 <div class="col-md-3 col-sm-6 block process-block lastchild">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-cogs feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a><i class="fa fa-cogs feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
@@ -182,7 +182,7 @@
             <div class="item col-md-4 col-12">
                 <div class="item-inner">
                     <div class="figure-holder">
-                        <img class="figure-image" src="assets/images/figure-1.png" alt="image">
+                        <img class="figure-image" width="185" height="120" src="assets/images/feature-1.png" alt="image">
                     </div><!--//figure-holder-->
                     <h3 class="item-title">{{ featuresDensing }}</h3>
                     <div class="item-desc">
@@ -193,7 +193,7 @@
             <div class="item col-md-4 col-12">
                 <div class="item-inner">
                     <div class="figure-holder">
-                        <img class="figure-image" src="assets/images/figure-2.png" alt="image">
+                        <img class="figure-image" width="185" height="120" src="assets/images/feature-2.png" alt="image">
                     </div><!--//figure-holder-->
                     <h3 class="item-title">{{ featuresDevelop }}</h3>
                     <div class="item-desc">
@@ -204,7 +204,7 @@
             <div class="item col-md-4 col-12">
                 <div class="item-inner">
                     <div class="figure-holder">
-                        <img class="figure-image" src="assets/images/figure-3.png" alt="image">
+                        <img class="figure-image" width="185" height="120" src="assets/images/feature-3.png" alt="image">
                     </div><!--//figure-holder-->
                     <h3 class="item-title">{{  featuresDigital }}</h3>
                     <div class="item-desc">
@@ -270,13 +270,47 @@
         </div><--//container->
     </div><--//features->-->
 
-<div id="pricing" class="pricing-section">
-    <div class="container text-center">
-        <h2 class="section-title">Pricing</h2>
-        <div class="intro">AppKit Landing's future updates are 100% FREE for existing customers</div>
-            
-    </div><!--//container-->
-</div><!--//pricing-->
+    <div id="cloud" class="pricing-section">
+        <div class="container text-center">
+            <h2 class="section-title">{{ cloudTitle }}</h2> 
+            <p class="intro">{{ cloudDescrip }}</p>  
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img class= "cloud-img" src="assets/images/cloud-1.png" alt="">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-12">
+                            <div class="row cloud-row">
+                                <div class="col-6 col-md-6">
+                                    <p>{{ cloudSto }}</p>
+                                </div>
+                                <div class="col-6 col-md-6">
+                                    <img src="assets/images/cloud-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row cloud-row">
+                                <div class="col-6 col-md-6">
+                                    <img src="assets/images/cloud-3.png" alt="">
+                                </div>
+                                <div class="col-6 col-md-6">
+                                    <p>{{ cloudZone }}</p>
+                                </div>
+                            </div>
+                            <div class="row cloud-row">
+                                <div class="col-6 col-md-6">
+                                    <p>{{ cloudpricing }}</p>
+                                </div>
+                                <div class="col-6 col-md-6">
+                                    <img src="assets/images/cloud-4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>      
+        </div><!--//container-->
+    </div><!--//pricing-->
 
 <div id="testimonials" class="testimonials-section">
     <div class="container">

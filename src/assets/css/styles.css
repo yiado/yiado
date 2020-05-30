@@ -489,7 +489,7 @@ a:focus {
 }
 
 .technologies {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 
 .technologies .list-inline-item {
@@ -687,7 +687,7 @@ a:focus {
 }
 
 .features-section .items-wrapper .figure-holder {
-  min-height: 170px;
+  min-height: 140px;
   margin-bottom: 15px;
   vertical-align: bottom;
 }
@@ -733,7 +733,7 @@ a:focus {
 
 .pricing-section .section-title {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
   font-size: 36px;
   font-weight: 300;
 }
@@ -1211,7 +1211,7 @@ body #process .process-border {
 	top: 34%;
 }
 }
-@media screen and (min-width: 375px) and (max-width: 440px) {
+@media screen and (min-width: 375px) and (max-width: 440px) { 
 body #process .process-border {
 	top: 31%;
 }
@@ -1401,3 +1401,21 @@ left: 0%;
 top: 0%;
 padding: 15px 35px;
 }
+/*------------------Pircing-------------------*/
+.cloud-img {
+    border: 0;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+.cloud-row {
+  margin-left: 6%;
+  margin-top: 5%;
+  min-height: 149px;
+}
+
+
+
+
+
