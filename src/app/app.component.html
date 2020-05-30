@@ -4,23 +4,23 @@
         <h1 class="logo">
             <a class="scrollto" href="#hero">
                 <span class="logo-icon-wrapper"><img class="logo-icon" src="assets/images/yiado.png" alt="icon"></span>
-                <span class="text"> Yia<span class="highlight"> do</span></span></a>
+                <span class="text"> {{ headerYia }}<span class="highlight">{{ headerDo }}</span></span></a>
         </h1><!--//logo-->
         <nav class="main-nav navbar-expand-md float-right navbar-inverse" role="navigation">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
+                <span class="sr-only">{{ headerMenuMovil }}</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button><!--//nav-toggle-->
             <div id="navbar-collapse" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="active nav-link scrollto" href="#about">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#features">Caracter&iacute;sticas</a></li>                        
-                    <li class="nav-item"><a class="nav-link scrollto" href="#team">Equipo</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+                    <li class="nav-item"><a class="active nav-link scrollto" href="#about">{{ headerAbout }}</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#features">{{ headerFeatures }}</a></li>                        
+                    <li class="nav-item"><a class="nav-link scrollto" href="#cloud">{{ headerPricing }}</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#testimonials">{{ headerTestimonials }}</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#team">{{ headerTeam }}</a></li>       
+                    <li class="nav-item"><a class="nav-link scrollto" href="#contact">{{ headerContact }}</a></li>
                 </ul><!--//nav-->
             </div><!--//navabr-collapse-->
         </nav><!--//main-nav-->                     
@@ -114,7 +114,7 @@
                                 <div class="col-md-3 col-sm-6 block process-block">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-lightbulb-o feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a><i class="fa fa-lightbulb-o feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
@@ -125,7 +125,7 @@
                                 <div class="col-md-3 col-sm-6 block process-block">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-pencil-square-o feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a><i class="fa fa-pencil-square-o feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
@@ -136,7 +136,7 @@
                                 <div class="col-md-3 col-sm-6 block process-block">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-magic feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a><i class="fa fa-magic feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
@@ -147,7 +147,7 @@
                                 <div class="col-md-3 col-sm-6 block process-block lastchild">
                                     <div class="process-icon-holder">
                                         <div class="process-border">
-                                            <span class="process-icon"><a href="#"><i class="fa fa-cogs feature_icon"></i></a></span></div>
+                                            <span class="process-icon"><a><i class="fa fa-cogs feature_icon"></i></a></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="process-text-block">
@@ -177,35 +177,34 @@
             <li class="list-inline-item"><img src="assets/images/logo-js.svg" width="53px" height="60px" lt="jQuery"></li>
             <li class="list-inline-item"><img src="assets/images/logo-python.png" width="53px" height="60px" lt="jQuery"></li>
             <li class="list-inline-item"><img src="assets/images/logo-docker.svg" width="53px" height="60px" lt="jQuery"></li>
-            <li class="list-inline-item"><img src="assets/images/logo-aws.png   " width="80px" height="60px" lt="jQuery"></li>
         </ul>            
         <div class="items-wrapper row">
             <div class="item col-md-4 col-12">
                 <div class="item-inner">
                     <div class="figure-holder">
-                        <img class="figure-image" src="assets/images/figure-1.png" alt="image">
+                        <img class="figure-image" width="185" height="120" src="assets/images/feature-1.png" alt="image">
                     </div><!--//figure-holder-->
                     <h3 class="item-title">{{ featuresDensing }}</h3>
                     <div class="item-desc">
                         {{ featuresDescripDescrip }}
-                    </div><!--//item-desc-->
+                    </div><br><!--//item-desc-->
                 </div><!--//item-inner-->
             </div><!--//item-->
             <div class="item col-md-4 col-12">
                 <div class="item-inner">
                     <div class="figure-holder">
-                        <img class="figure-image" src="assets/images/figure-2.png" alt="image">
+                        <img class="figure-image" width="185" height="120" src="assets/images/feature-2.png" alt="image">
                     </div><!--//figure-holder-->
                     <h3 class="item-title">{{ featuresDevelop }}</h3>
                     <div class="item-desc">
                        {{ featuresDevelopDescrip }} 
-                    </div><!--//item-desc-->
+                    </div><br><!--//item-desc-->
                 </div><!--//item-inner-->
             </div><!--//item-->
             <div class="item col-md-4 col-12">
                 <div class="item-inner">
                     <div class="figure-holder">
-                        <img class="figure-image" src="assets/images/figure-3.png" alt="image">
+                        <img class="figure-image" width="185" height="120" src="assets/images/feature-3.png" alt="image">
                     </div><!--//figure-holder-->
                     <h3 class="item-title">{{  featuresDigital }}</h3>
                     <div class="item-desc">
@@ -270,6 +269,110 @@
             
         </div><--//container->
     </div><--//features->-->
+
+    <div id="cloud" class="pricing-section">
+        <div class="container text-center">
+            <h2 class="section-title">{{ cloudTitle }}</h2> 
+            <p class="intro">{{ cloudDescrip }}</p>  
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img class= "cloud-img" src="assets/images/cloud-1.png" alt="">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-12">
+                            <div class="row cloud-row">
+                                <div class="col-6 col-md-6">
+                                    <p>{{ cloudSto }}</p>
+                                </div>
+                                <div class="col-6 col-md-6">
+                                    <img src="assets/images/cloud-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row cloud-row">
+                                <div class="col-6 col-md-6">
+                                    <img src="assets/images/cloud-3.png" alt="">
+                                </div>
+                                <div class="col-6 col-md-6">
+                                    <p>{{ cloudZone }}</p>
+                                </div>
+                            </div>
+                            <div class="row cloud-row">
+                                <div class="col-6 col-md-6">
+                                    <p>{{ cloudpricing }}</p>
+                                </div>
+                                <div class="col-6 col-md-6">
+                                    <img src="assets/images/cloud-4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>      
+        </div><!--//container-->
+    </div><!--//pricing-->
+
+<div id="testimonials" class="testimonials-section">
+    <div class="container">
+        <h2 class="section-title text-center">Many Happy Customers</h2>
+        <div class="item mx-auto">
+            <div class="profile-holder">
+                <img class="profile-image" src="assets/images/profile-1.png" alt="profile">
+            </div>
+            <div class="quote-holder">
+                <blockquote class="quote">
+                    <p>Testimonial goes here Donec felis odio, sagittis eu cursus ac, porttitor eu purus. In a bibendum dui. Nullam id est sed felis rutrum tincidunt eu nec nisi morbi euismod semper neque sed lobortis.</p>
+                    <div class="quote-source">
+                        <span class="name">@JohnK,</span>
+                        <span class="meta">San Francisco</span>
+                    </div><!--//quote-source-->
+                </blockquote>
+            </div><!--//quote-holder-->
+        </div><!--//item-->
+        <div class="item item-reversed mx-auto">
+            <div class="profile-holder">
+                <img class="profile-image" src="assets/images/profile-2.png" alt="profile">
+            </div>
+            <div class="quote-holder">
+                <blockquote class="quote">
+                    <p>Testimonial goes here fermentum sed pharetra in, aliquet sodales quam. Ut sed turpis quis orci viverra aliquet interdum ut ipsum. </p>
+                    <div class="quote-source">
+                        <span class="name">@LisaWhite,</span>
+                        <span class="meta">London</span>
+                    </div><!--//quote-source-->
+                </blockquote>
+            </div><!--//quote-holder-->
+        </div><!--//item-->
+        <div class="item mx-auto">
+            <div class="profile-holder">
+                <img class="profile-image" src="assets/images/profile-3.png" alt="profile">
+            </div>
+            <div class="quote-holder">
+                <blockquote class="quote">
+                    <p>Testimonial goes here vestibulum non hendrerit lorem, luctus tincidunt erat. Sed pharetra aliquam posuere. Pellentesque sollicitudin.</p>
+                    <div class="quote-source">
+                        <span class="name">@MattH,</span>
+                        <span class="meta">Berlin</span>
+                    </div><!--//quote-source-->
+                </blockquote>
+            </div><!--//quote-holder-->
+        </div><!--//item-->
+        <div class="item item-reversed mx-auto">
+            <div class="profile-holder">
+                <img class="profile-image" src="assets/images/profile-4.png" alt="profile">
+            </div>
+            <div class="quote-holder">
+                <blockquote class="quote">
+                    <p>Testimonial goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis</p>
+                    <div class="quote-source">
+                        <span class="name">@RyanW,</span>
+                        <span class="meta">Paris</span>
+                    </div><!--//quote-source-->
+                </blockquote>  
+            </div><!--//quote-holder-->
+        </div><!--//item-->
+    </div><!--//container-->
+</div><!--//testimonials-->   
     
 <div class="team-section" id="team">
     <div class="container text-center">
@@ -384,76 +487,6 @@
 
     </div><!--//container-->
 </div><!--//team-section-->
-    
-<div id="pricing" class="pricing-section">
-    <div class="container text-center">
-        <h2 class="section-title">Pricing</h2>
-        <div class="intro">AppKit Landing's future updates are 100% FREE for existing customers</div>
-            
-    </div><!--//container-->
-</div><!--//pricing-->
- 
-<div id="testimonials" class="testimonials-section">
-    <div class="container">
-        <h2 class="section-title text-center">Many Happy Customers</h2>
-        <div class="item mx-auto">
-            <div class="profile-holder">
-                <img class="profile-image" src="assets/images/profile-1.png" alt="profile">
-            </div>
-            <div class="quote-holder">
-                <blockquote class="quote">
-                    <p>Testimonial goes here Donec felis odio, sagittis eu cursus ac, porttitor eu purus. In a bibendum dui. Nullam id est sed felis rutrum tincidunt eu nec nisi morbi euismod semper neque sed lobortis.</p>
-                    <div class="quote-source">
-                        <span class="name">@JohnK,</span>
-                        <span class="meta">San Francisco</span>
-                    </div><!--//quote-source-->
-                </blockquote>
-            </div><!--//quote-holder-->
-        </div><!--//item-->
-        <div class="item item-reversed mx-auto">
-            <div class="profile-holder">
-                <img class="profile-image" src="assets/images/profile-2.png" alt="profile">
-            </div>
-            <div class="quote-holder">
-                <blockquote class="quote">
-                    <p>Testimonial goes here fermentum sed pharetra in, aliquet sodales quam. Ut sed turpis quis orci viverra aliquet interdum ut ipsum. </p>
-                    <div class="quote-source">
-                        <span class="name">@LisaWhite,</span>
-                        <span class="meta">London</span>
-                    </div><!--//quote-source-->
-                </blockquote>
-            </div><!--//quote-holder-->
-        </div><!--//item-->
-        <div class="item mx-auto">
-            <div class="profile-holder">
-                <img class="profile-image" src="assets/images/profile-3.png" alt="profile">
-            </div>
-            <div class="quote-holder">
-                <blockquote class="quote">
-                    <p>Testimonial goes here vestibulum non hendrerit lorem, luctus tincidunt erat. Sed pharetra aliquam posuere. Pellentesque sollicitudin.</p>
-                    <div class="quote-source">
-                        <span class="name">@MattH,</span>
-                        <span class="meta">Berlin</span>
-                    </div><!--//quote-source-->
-                </blockquote>
-            </div><!--//quote-holder-->
-        </div><!--//item-->
-        <div class="item item-reversed mx-auto">
-            <div class="profile-holder">
-                <img class="profile-image" src="assets/images/profile-4.png" alt="profile">
-            </div>
-            <div class="quote-holder">
-                <blockquote class="quote">
-                    <p>Testimonial goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis</p>
-                    <div class="quote-source">
-                        <span class="name">@RyanW,</span>
-                        <span class="meta">Paris</span>
-                    </div><!--//quote-source-->
-                </blockquote>  
-            </div><!--//quote-holder-->
-        </div><!--//item-->
-    </div><!--//container-->
-</div><!--//testimonials-->   
 
 
 <div id="contact" class="contact-section">
@@ -461,7 +494,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="widget">
-                    <a href="index.html" title=""><img src="../assets/images/yiado.png" class="footer-logo" alt=""></a>
+                    <a title=""><img src="../assets/images/yiado.png" class="footer-logo" alt=""></a>
                 </div><!-- end widget -->
                 <div class="widget">
                     <h4 class="widget-title">{{ footerTitle }}</h4>

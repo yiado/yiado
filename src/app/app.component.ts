@@ -7,13 +7,24 @@ declare var Parallax;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  implements OnInit {
+
+  //---------------------------------------------------------------------
+  headerYia = "Yia";
+  headerDo = "Do";
+  headerMenuMovil = "Toggle navigation";
+  headerAbout = " Nosotros";
+  headerFeatures = "Servicios";
+  headerPricing = "Cloud";
+  headerTeam = "Equipo";
+  headerTestimonials = "Testimonio";
+  headerContact = "Contacto";
   //---------------------------------------------------------------------
   title = 'Yiado';
   quien = '   ¿?';
   donde = '   ¿?';
   que = '   ¿?';
   //---------------------------------------------------------------------
-  aboutTitle = 'Cómo lo hacemos?';
+  aboutTitle = '¿Qué hacemos?';
   aboutText1 = 'En #Yiado pensamos que el desarrollo de software no solo debe ser escritura de codigo';
   aboutText2 = ' <!-- HOLA MUNDO --> nuestro cultura es el desarrollo de ideas.';  
   aboutIdea = 'Idea';
@@ -33,6 +44,13 @@ export class AppComponent  implements OnInit {
   featuresDevelopDescrip = 'Implementamos tecnologías emergentes desde la agilidad para generar resultados reales.';
   featuresDigital = 'Transformación digital Community Manager';
   featuresDigitalDescrip = 'Ayudamos a definir la estrategia para transformar tu negocio y alcanzar la madurez digital.';
+  //----------------------------------------------------------------------
+  cloudTitle = '¿En la Nuve?';
+  cloudDescrip = 'Somos tu apoyo para tomar la mejor decision al integrar servicios en la nuve en el desarrollo de tus ideas, desde tu pagina web, E-Commerce o App, contamos con experiencia en Amazon Web Services, Google Cloud que te permitiran escalar tu desarrollo con un excelente costo.';
+  cloudSeg = "Proporciona un control completo sobre los recursos informáticos y le permite ejecutarse en el entorno informático";
+  cloudSto = "Almacenamiento y procesamiento de recursos informaticos ofreciendo escalabilidad, disponibilidad de datos, seguridad y rendimiento";
+  cloudZone = 'Asesoramiento al implementar tu estrategia para ejecutar tu aplicaciones empresariales en regiones y zonas de disponibilidad que se ajuten a tu prioridad.';
+  cloudpricing = 'Paga por los servicios individuales que necesite durante el tiempo que los use, sin contratos a largo plazo ni licencias complejas.';
   //----------------------------------------------------------------------
   team = "Nuestro Equipo"; 
   teamDescrip = "Somos un equipo multidisciplinario emprendedor, amante de la tecnología, que esta preparado para asumir nuevos desafios."
