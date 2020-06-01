@@ -132,6 +132,7 @@ a:focus {
 
 /* ======= Header ======= */
 .header {
+  background: #fff;
   position: fixed;
   width: 100%;
   z-index: 30;
@@ -155,13 +156,12 @@ a:focus {
 
 .header.header-scrolled .logo {
   color: #f3d344;
-  padding-top: 12px;
 }
 
 .header.header-scrolled .logo .logo-icon-wrapper {
   /*background: #ffc107;*/
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -193,7 +193,7 @@ a:focus {
 }
 
 .header a {
-  color: #fff;
+  color: #494d55;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
