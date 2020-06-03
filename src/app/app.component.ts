@@ -72,9 +72,12 @@ export class AppComponent  implements OnInit {
   footerNetworkDecrip1 = "contacto@yiado.cl";
   footerNetworkDecrip2 = "github.com/yiado";
 
+  sendtoken = "ddixhpr59yqlaqht1qigmi76"
+
 
   ngOnInit(){ 
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
   }
+  
 }

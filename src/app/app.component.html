@@ -277,10 +277,17 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 align-center mb-4 mb-lg-0">
                 <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
                 <p class="fs-18 fw-medium">Join Our Newsletter &amp; Marketing Communication. We'll send you news and offers.</p>
-                <form class="mt-4">
+                <form action="https://postmail.invotes.com/send" method="post" id="email_form"class="mt-4">
                     <div class="input-btn--inline">
-                        <input class="input--white" type="text" placeholder="Introduzca su email ..">
-                        <button type="button" class="crumina-button button--blue button--l">SUBSCRIBE</button>
+                        <input type="hidden" name="subject" value="Web Yiado Contacto..">
+                        <input class="input--white" name="text" placeholder="Message">
+                        <input type="hidden" name="access_token" value= "{{ sendtoken }}"   >
+                        <!-- return urls can be fully qualified -OR-
+                           start with / for root relative -OR-
+                           start with . for url relative --> 
+                        <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+                        <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+                        <button id="submit_form" type="submit" value="Send" class="crumina-button button--blue button--l">SUBSCRIBE</button>
                     </div>
                 </form>
             </div>
@@ -408,6 +415,17 @@
         <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
         <small class="copyright">© Copyright 2020. Designed with <i class="fas fa-heart"></i> by <a href="https://yiado.cl/" target="_blank">Yiado</a>, developers team.</small>
     </div> <!--//container-->
-</footer>
+</footer>    
+<!-- optional, prevents the submit button from being pressed more than once -->
+<script>
+    var submitButton = document.getElementById("submit_form");
+    var form = document.getElementById("email_form");
+    form.addEventListener("submit", function (e) {
+        setTimeout(function() {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
+</script> 
 
 <router-outlet></router-outlet>
