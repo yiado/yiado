@@ -967,11 +967,10 @@ padding: 15px 35px;
 }
 
 /*-------------------------------------------------------*/
-.large-section-padding {
-  padding: 120px 0;
-}
 
-.bg-yellow-themes {
+.sendmail-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #f3d344;
 }
 
@@ -1011,6 +1010,9 @@ input, textarea, select {
   bottom: 0;
   max-height: 100%;
 }
+.input-btn--inline .crumina-button:hover {
+  opacity: 0.7;
+}
 
 .button--blue {
   background-color: #00c6ff;
@@ -1039,3 +1041,6 @@ input, textarea, select {
   outline: none;
   border: 3px solid;
 }
+
+/* *************** */
+
