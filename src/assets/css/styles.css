@@ -966,4 +966,76 @@ padding: 15px 35px;
     color: #f3d344;
 }
 
+/*-------------------------------------------------------*/
+.large-section-padding {
+  padding: 120px 0;
+}
 
+.bg-yellow-themes {
+  background-color: #f3d344;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem !important;
+}
+
+.input-btn--inline {
+  position: relative;
+}
+
+input.input--white, textarea.input--white, select.input--white {
+  background-color: #ffffff;
+}
+
+input, textarea, select {
+  padding: 1.024rem 1.875rem;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--border-grey-color);
+  width: 100%;
+  outline: none;
+  caret-color: var(--body-font-color);
+  color: var(--heading-color);
+  font-weight: 500;
+  max-height: 55px;
+}
+
+.input-btn--inline .crumina-button {
+  position: absolute;
+  right: -1px;
+  top: 0;
+  bottom: 0;
+  max-height: 100%;
+}
+
+.button--blue {
+  background-color: #00c6ff;
+  border-color: #00c6ff !important;
+  color: #ffffff !important;;
+}
+
+.button--l {
+  font-size: 14px;
+  padding: 1.094rem 2.607rem;
+}
+
+.crumina-button {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--white-color);
+  outline: none;
+  border: 3px solid;
+}
