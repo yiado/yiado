@@ -1,9 +1,32 @@
-/*   
- * Template Name: Yiado Spa - Responsive Website Template for Developers
- * Version: 1.0
- * Author: Yiado
- * Website: https://yiado.cl/
-*/
+/*------------------------------------------------------------------
+
+  * Template Name: Yiado Spa - Responsive Website Template for Developers
+  * Version: 1.0
+  * Author: Yiado
+  * Website: https://yiado.cl/
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+    [TABLE OF CONTENTS]
+
+    1. SKELETON
+    2. HEADER
+    3. HERO
+    4. ABOUT
+    5. FEATURES
+    6. CLOUD
+    7. DETAILS
+    8. TEAM
+    9. CONTACT
+    10. FOOTERS
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+    SKELETON
+-------------------------------------------------------------------*/
+
 body {
   font-family: 'Open Sans', arial, sans-serif;
   color: #494d55;
@@ -38,9 +61,9 @@ a:focus {
   text-decoration: none;
 }
 
-/*********************
+/*------------------------------------------------------------------
     HEADER
-**********************/
+-------------------------------------------------------------------*/
 
 .header {
   background: #fff;
@@ -226,18 +249,18 @@ a:focus {
   padding: 15px;
 }
 
-/*********************
-    HERO SECTION
-**********************/
+/*------------------------------------------------------------------
+    HERO
+-------------------------------------------------------------------*/
 
 .hero-section {
   padding-top: 150px;
   background: #f3d344;
 }
 
-/*********************
-    ABOUT SECTION
-**********************/
+/*------------------------------------------------------------------
+    ABOUT
+-------------------------------------------------------------------*/
 
 .about-section {
   padding-top: 90px;
@@ -284,9 +307,9 @@ a:focus {
   color: #616670;
 }
 
-/**************************
-    FEATURES SECTION
-***************************/
+/*------------------------------------------------------------------
+    FEATURES
+-------------------------------------------------------------------*/
 
 .features-section {
   background: #f3d344 url("../images/map.png") no-repeat center center;
@@ -312,6 +335,12 @@ a:focus {
   max-width: 760px;
   margin: 0 auto;
   margin-bottom: 60px;
+  text-align: justify;
+  text-indent: 40px;
+}
+.sangria {
+  text-align: justify;
+  text-indent: 40px;
 }
 
 .features-section .intro a {
@@ -466,9 +495,9 @@ a:focus {
 	border: 20px solid #f0e7d1;
 }
 
-/**************************
-    CLOUD SECTION
-***************************/
+/*------------------------------------------------------------------
+    CLOUD
+-------------------------------------------------------------------*/
 
 .cloud-section {
   padding-top: 90px;
@@ -488,6 +517,8 @@ a:focus {
   max-width: 760px;
   margin: 0 auto;
   margin-bottom: 60px;
+  text-align: justify;
+  text-indent: 40px;
 }
 
 .cloud-img {
@@ -502,165 +533,73 @@ a:focus {
 margin-left: 6%;
 margin-top: 5%;
 min-height: 149px;
+text-align: justify;
+text-indent: 40px;
 }
 
-/**************************
-    TESTIMONIALS SECTION
-***************************/
+/*------------------------------------------------------------------
+    DETAILS (SENDMAIL)
+-------------------------------------------------------------------*/
 
-.testimonials {
-  background: #f3d344;
-}
-
-.testimonials-inner {
-  padding: 60px 30px;
-  position: relative;
-  max-width: 800px;
-}
-
-.testimonials-inner .profile-holder {
-  position: absolute;
-  left: 30px;
-  text-align: center;
-}
-
-.testimonials-inner .profile-image {
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.testimonials-inner .quote {
-  background: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  margin-left: 130px;
-  border-left: none;
-  margin-bottom: 0;
-  font-size: 14px;
-  min-height: 100px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  position: relative;
-  padding: 15px;
-}
-
-.testimonials-inner .quote:before {
-  position: absolute;
-  left: -10px;
-  top: 30px;
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid rgba(0, 0, 0, 0.2);
-}
-
-.testimonials-section {
-  background: #f3d344 url("../images/map.png") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.sendmail-section {
   padding-top: 90px;
   padding-bottom: 90px;
+  background-color: #f3d344;
 }
 
-.testimonials-section .section-title {
-  margin: 0;
-  margin-bottom: 30px;
-  font-size: 36px;
-  font-weight: 300;
-  color: #fff;
+.details-distributed .details-right {
+  float: left;
 }
 
-.testimonials-section .item {
+.details-distributed form {
   position: relative;
-  max-width: 800px;
-  padding: 30px;
 }
 
-.testimonials-section .item:last-child {
-  margin-bottom: 0;
+.details-distributed form input {
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: none;
+  font: inherit;
+  font-size: 15px;
+  font-weight: normal;
+  color: #444;
+  width: 400px;
+  padding: 18px 50px 18px 18px;
 }
 
-.testimonials-section .item.item-reversed .profile-holder {
-  left: inherit;
+.details-distributed form input:focus {
+  outline: none;
+}
+
+.details-distributed form input::-webkit-input-placeholder {
+  color: #444;
+}
+
+.details-distributed form input::-moz-placeholder {
+  opacity: 1;
+  color: #444;
+}
+
+.details-distributed form input:-ms-input-placeholder {
+  color: #444;
+}
+
+.sendbutton {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 2px;
   right: 30px;
+  color: rgb(240, 16, 16);
+  font-size: 18px;
+  margin-top: 6px;
 }
 
-.testimonials-section .item.item-reversed .quote {
-  margin-left: 0;
-  margin-right: 105px;
-}
-
-.testimonials-section .item.item-reversed .quote:before {
-  left: inherit;
-  right: -10px;
-  content: "";
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid rgba(0, 0, 0, 0.2);
-  border-right: inherit;
-}
-
-.testimonials-section .item .profile-holder {
-  position: absolute;
-  left: 30px;
-  text-align: center;
-}
-
-.testimonials-section .item .profile-image {
-  display: inline-block;
-  margin: 0 auto;
-  width: 80px;
-  height: 80px;
-}
-
-.testimonials-section .item .quote {
-  background: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  margin-left: 105px;
-  border-left: none;
-  margin-bottom: 0;
-  font-size: 14px;
-  min-height: 80px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  position: relative;
-  padding: 30px;
-}
-
-.testimonials-section .item .quote:before {
-  position: absolute;
-  left: -10px;
-  top: 30px;
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid rgba(0, 0, 0, 0.2);
-}
-
-.testimonials-section .item .quote-source {
-  color: rgba(0, 0, 0, 0.6);
-}
-
-/**************************
-    TEAM SECTION
-***************************/
+/*------------------------------------------------------------------
+    TEAM
+-------------------------------------------------------------------*/
 
 .team-section {
   padding-top: 90px;
@@ -762,9 +701,9 @@ padding: 15px 35px;
   background: #373737;
 }
 
-/**************************
-    CONTACT SECTION
-***************************/
+/*------------------------------------------------------------------
+    CONTACT
+-------------------------------------------------------------------*/
 
 .contact-section {
   padding-top: 40px;
@@ -905,9 +844,9 @@ padding: 15px 35px;
   }
 }
 
-/*********************
+/*------------------------------------------------------------------
     FOOTERS
-**********************/
+-------------------------------------------------------------------*/
 
 .footer {
   background: #26282c;
@@ -965,82 +904,3 @@ padding: 15px 35px;
 .footer p {
     color: #f3d344;
 }
-
-/*-------------------------------------------------------*/
-
-.sendmail-section {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #f3d344;
-}
-
-.mt-4, .my-4 {
-    margin-top: 1.5rem !important;
-}
-
-.input-btn--inline {
-  position: relative;
-}
-
-input.input--white, textarea.input--white, select.input--white {
-  background-color: #ffffff;
-}
-
-input, textarea, select {
-  padding: 1.024rem 1.875rem;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-  font-size: 16px;
-  border-radius: 50px;
-  border: none;
-  background-color: var(--border-grey-color);
-  width: 100%;
-  outline: none;
-  caret-color: var(--body-font-color);
-  color: var(--heading-color);
-  font-weight: 500;
-  max-height: 55px;
-}
-
-.input-btn--inline .crumina-button {
-  position: absolute;
-  right: -1px;
-  top: 0;
-  bottom: 0;
-  max-height: 100%;
-}
-.input-btn--inline .crumina-button:hover {
-  opacity: 0.7;
-}
-
-.button--blue {
-  background-color: #00c6ff;
-  border-color: #00c6ff !important;
-  color: #ffffff !important;;
-}
-
-.button--l {
-  font-size: 14px;
-  padding: 1.094rem 2.607rem;
-}
-
-.crumina-button {
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 50px;
-  position: relative;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-  text-align: center;
-  line-height: 1;
-  font-weight: 700;
-  color: var(--white-color);
-  outline: none;
-  border: 3px solid;
-}
-
-/* *************** */
-

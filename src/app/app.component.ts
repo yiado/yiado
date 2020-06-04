@@ -16,7 +16,7 @@ export class AppComponent  implements OnInit {
   headerFeatures = "Servicios";
   headerPricing = "Cloud";
   headerTeam = "Equipo";
-  headerTestimonials = "Testimonio";
+  headerSendEmail = "Detalles";
   headerContact = "Contacto";
   //---------------------------------------------------------------------
   title = 'Yiado';
@@ -24,7 +24,7 @@ export class AppComponent  implements OnInit {
   donde = '   ¿?';
   que = '   ¿?';
   //---------------------------------------------------------------------
-  aboutTitle = '¿Qué hacemos?';
+  aboutTitle = '¿Qué Hacemos?';
   aboutText1 = 'En #Yiado pensamos que el desarrollo de software no solo debe ser escritura de codigo';
   aboutText2 = ' <!-- HOLA MUNDO --> nuestro cultura es el desarrollo de ideas.';  
   aboutIdea = 'Idea';
@@ -61,6 +61,11 @@ export class AppComponent  implements OnInit {
   devYsmm = "Ysrael Méndez";
   devBack = "Back-end Developer     ";
 //-------------------------------------------------------------------------
+  sendtoken = "ddixhpr59yqlaqht1qigmi76"
+  sendTitle = "¿Quieres más información?"
+  sendTitle2 = "Déjanos tu correo y pronto nos pondremos en contacto contigo."
+  addEmail = "Introduce tu email .."
+//-------------------------------------------------------------------------
   footerTitle = "#YiaDo";
   footerDescrip = "Si lo puedes #Imaginar, lo puedes #Programar."; 
   footerDirec = "Dirección";
@@ -71,8 +76,6 @@ export class AppComponent  implements OnInit {
   footerNetwork = "Contacto";
   footerNetworkDecrip1 = "contacto@yiado.cl";
   footerNetworkDecrip2 = "github.com/yiado";
-
-  sendtoken = "ddixhpr59yqlaqht1qigmi76"
 
 
   ngOnInit(){ 
