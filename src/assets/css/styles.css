@@ -549,6 +549,7 @@ text-indent: 40px;
 
 .details-distributed .details-right {
   float: left;
+  margin-left: 5%;
 }
 
 .details-distributed form {
@@ -565,7 +566,7 @@ text-indent: 40px;
   font-size: 15px;
   font-weight: normal;
   color: #444;
-  width: 400px;
+  width: 320px;
   padding: 18px 50px 18px 18px;
 }
 
