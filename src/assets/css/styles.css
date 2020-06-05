@@ -533,8 +533,6 @@ a:focus {
 margin-left: 6%;
 margin-top: 5%;
 min-height: 149px;
-text-align: justify;
-text-indent: 40px;
 }
 
 /*------------------------------------------------------------------
@@ -549,7 +547,6 @@ text-indent: 40px;
 
 .details-distributed .details-right {
   float: left;
-  margin-left: 5%;
 }
 
 .details-distributed form {
