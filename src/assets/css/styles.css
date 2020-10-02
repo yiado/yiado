@@ -108,9 +108,10 @@ a:focus {
 }
 
 .header.header-scrolled .logo .logo-icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 0;
+  width: 100px;
+  height: 40px;
+  margin-right: 50px;
+  margin-left: 130px;
 }
 
 .header.header-scrolled .main-nav .nav .nav-link {
@@ -154,8 +155,10 @@ a:focus {
 }
 
 .header .logo .logo-icon {
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: 40px;
+  margin-right: 50px;
+  margin-left: 130px;
 }
 
 .header .logo .highlight {
@@ -471,7 +474,7 @@ a:focus {
 }
 }
 
-@media screen and (min-width: 375px) and (max-width: 440px) { 
+@media screen and (min-width: 375px) and (max-width: 440px) {
   #process .process-border {
 	top: 31%;
 }
@@ -648,13 +651,13 @@ padding: 15px 35px;
 .item-bg-1 {
   background-image: url('../images/team-Douglas-Ramirez.jpg');
   background-size: cover;
-}    
+}
 
 .item-bg-2 {
   background-image: url('../images/team-Liliana-Suarez.jpg');
   background-size: cover;
 }
-     
+
 .item-bg-3 {
   background-image: url('../images/team-Ysrael-Mendez.jpg');
   background-size: cover;
