@@ -26,7 +26,7 @@ export class AppComponent  implements OnInit {
   //---------------------------------------------------------------------
   aboutTitle = '¿Qué Hacemos?';
   aboutText1 = 'En #Yiado pensamos que el desarrollo de software no solo debe ser escritura de codigo';
-  aboutText2 = ' <!-- HOLA MUNDO --> nuestro cultura es el desarrollo de ideas.';  
+  aboutText2 = ' <!-- HOLA MUNDO --> nuestro cultura es el desarrollo de ideas.';
   aboutIdea = 'Idea';
   aboutIdeaDescrip = 'Experimentar, hacer cosas nuevas, ser curiosos, no tener miedo, básicamente volver a ser niños y dejar volar nuestra imaginación es nuestra cultura.';
   aboutConcept = 'Concepto';
@@ -52,7 +52,7 @@ export class AppComponent  implements OnInit {
   cloudZone = 'Asesoramiento al implementar tu estrategia para ejecutar tus aplicaciones empresariales, en regiones y zonas de disponibilidad que se ajusten a tu prioridad.';
   cloudpricing = 'Paga por los servicios individuales que necesite durante el tiempo que los use, sin contratos a largo plazo ni licencias complejas.';
   //----------------------------------------------------------------------
-  team = "Nuestro Equipo"; 
+  team = "Nuestro Equipo";
   teamDescrip = "Somos un equipo multidisciplinario emprendedor, amante de la tecnología, que esta preparado para asumir nuevos desafios."
   devLram = "Liliana Suárez";
   devDensing = "Designer - Community Manager";
@@ -66,8 +66,8 @@ export class AppComponent  implements OnInit {
   sendTitle2 = "Déjanos tu correo y pronto nos pondremos en contacto contigo."
   addEmail = "Introduce tu email .."
 //-------------------------------------------------------------------------
-  footerTitle = "#YiaDo";
-  footerDescrip = "Si lo puedes #Imaginar, lo puedes #Programar."; 
+  footerTitle = "YiaDo";
+  footerDescrip = "Si lo puedes #Imaginar, lo puedes #Programar.";
   footerDirec = "Dirección";
   footerDirecDescrip = "Hugo Silva Endeiza 840, Antofagasta, Chile.";
   footerTelef = "Teléfono";
@@ -78,9 +78,9 @@ export class AppComponent  implements OnInit {
   footerNetworkDecrip2 = "github.com/yiado";
 
 
-  ngOnInit(){ 
+  ngOnInit(){
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
   }
-  
+
 }
